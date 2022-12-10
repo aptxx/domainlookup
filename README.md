@@ -1,0 +1,2 @@
+# domainlookup
+lookups domain state
