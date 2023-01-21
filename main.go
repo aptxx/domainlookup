@@ -21,7 +21,7 @@ const (
 	defaultConcurrency = 256
 )
 
-// array flag. e.g. -domain=a.com -domain=b.com
+// array flag. e.g. -d a.com -d b.com
 type arrayFlags []string
 
 func (i *arrayFlags) String() string {
@@ -57,18 +57,6 @@ func init() {
 //       ],
 //       [
 //         "http://cctld.uz:9000/"
-//       ]
-//     ],
-//     [
-//       [
-//         "nowruz",
-//         "pars",
-//         "shia",
-//         "tci",
-//         "xn--mgbt3dhd"
-//       ],
-//       [
-//         "https://api.rdap.agitsys.net/"
 //       ]
 //     ]
 //   ]

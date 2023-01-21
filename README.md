@@ -4,6 +4,8 @@ RDAP based tool that bulk lookups **top domain** like com, net if they are regis
 
 [https://lookup.icann.org/en](https://lookup.icann.org/en)
 
+[https://www.icann.org/rdap#overview](https://www.icann.org/rdap#overview)
+
 ## build
 
 go build -o domainlookup main.go
