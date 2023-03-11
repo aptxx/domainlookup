@@ -213,7 +213,7 @@ func main() {
 	flag.Parse()
 
 	if len(fDomain) == 0 && fFile == "" {
-		flag.PrintDefaults()
+		flag.Usage()
 		os.Exit(1)
 	}
 
